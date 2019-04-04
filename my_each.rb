@@ -1,4 +1,4 @@
-def my_each(array) { |i|
+def my_each(array) { |i| puts i }
   i = 0
   while i < array.length
     yield(array{i})
